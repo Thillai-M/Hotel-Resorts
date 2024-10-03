@@ -1,0 +1,28 @@
+
+.btn{
+    display: inline-block;
+    background: none;
+    outline: none;
+    border: none;
+    color: var(--c-black);
+    padding: 8px 15px;
+    border-radius:var(--br-radius-lm);
+    transition: var(--default-trans);
+    cursor: pointer;
+}
+
+.btn.btn-primary{
+    color: var(--c-white);
+    background-color: var(--c-orange);
+}
+.btn.btn-secondary{
+    color: var(--c-white);
+    background-color: var(--c-orange);
+    padding: 15px 20px;
+}
+.btn.btn-primary:hover{
+    background-color: var(--c-pink);
+}
+.btn.btn-secondary:hover{
+    background-color: var(--c-dark-blue);
+}

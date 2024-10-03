@@ -1,0 +1,10 @@
+:root{
+    --br-radius-sm:5px;
+    --br-radius-lm:7px;
+    --br-radius-full:50%;
+}
+
+.ltr-spc-2px{
+    letter-spacing:3px;
+}
+.fw700{font-weight: 700;}

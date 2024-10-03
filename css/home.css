@@ -1,0 +1,326 @@
+
+/* banner-sec */
+.banner-sec{
+    background: url(/images/banner.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    padding: 0 60px;
+    border-radius: var(--br-radius-lm);
+}
+
+.banner-content{
+    margin-top: 120px;
+}
+.banner-header{
+    height: 50px;
+}
+.banner-content-stays{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+    position: relative;
+}
+.stay{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.stay-in{
+    padding: 10px 15px;
+    background-color: var(--c-white);
+}
+
+.stay-page-in{
+    padding: 10px;
+    color: var(--c-white);
+    background-color: var(--c-dark-blue);
+    border-top-right-radius: var(--br-radius-lm);
+}
+.popup{
+    content: '';
+    width: 40px; 
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 240px;
+    bottom: 50px;
+    background-color: var(--c-orange);
+}
+.popup-in{
+    position: relative;
+}
+
+.popup-in::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left:-5px;
+    right: 0;
+    bottom: -8px;
+    border:5px solid;
+    border-color: var(--c-orange) transparent  transparent var(--c-orange);
+}
+.stay-page{
+    max-width: 650px;
+}
+.hotel-details-list{
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.hotel-details{
+    flex-wrap: wrap;
+    row-gap: 30px;
+    border-top-right-radius: var(--br-radius-sm);
+    border-bottom-right-radius: var(--br-radius-sm);
+    border-bottom-left-radius: var(--br-radius-sm);
+    background-color: var(--c-white);
+    padding: 10px 15px;
+}
+
+.hotel-details-link{
+    color: var(--c-black);
+}
+.search-icon{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--br-radius-lm);
+    color: var(--c-white);
+    background-color: var(--c-orange);
+    cursor: pointer;
+}
+/* ///banner-sec */
+
+/* vacation-rentals */
+.vacation-rentals{
+    padding-block: 100px;
+}
+.vacation-Rental-boxes{
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.vacation-Rental-box{
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.vacation-Rental-box-in{
+    padding: 10px;
+}
+.rental-img{
+    width: 100%;
+    background-size:cover;
+    border-radius: var(--br-radius-sm);
+}
+.rental-box-content{
+    padding: 10px 20px;
+}
+.slide{
+    width: 15px;
+    height: 15px;
+    border-radius: var(--br-radius-full);
+    background-color: var(--c-grey-15);
+}
+.colr{
+    background-color:var(--c-orange);
+
+}
+/* ///vacation-rentals */
+
+/* feautures-section*/
+.feautures-boxes{
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.feautures-box{
+    width: 33.33%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.feautures-box-in{
+    padding: 10px;
+}
+/* //features-section */
+
+/*destination-section */
+
+.destination-section{
+    padding-block: 100px;
+}
+.destination-boxes{
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    row-gap: 20px;
+}
+.destination-img-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    row-gap: 20px;
+}
+.destination-box-in{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.img-box-in{
+    padding: 20px;
+
+}
+.destination-img{
+    height: 160px;
+    width: 190px;
+    background-size:cover;
+    border-radius: var(--br-radius-sm);
+}
+.destination-box{
+    width: 50%;
+}
+.underline-2{
+    position: relative;
+}
+.underline-2::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    bottom: -10px;
+    left: 3px;
+    background-color: var(--c-orange);
+}
+.destination-box-content{
+    padding: 10px;
+}
+.destination-box-in{
+    box-shadow:0px 2px 4px rgba(197, 192, 192, 0.1)
+}
+/*///destination-section */
+
+/* transport-section */
+.transport-section{
+    padding-block: 100px;
+}
+.transport-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    row-gap: 30px;
+}
+.transport-box{
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.transport-box-in{
+    padding:10px;
+}
+.inter-img{
+    width: 100%;
+    height: 100%;
+}
+/* ///transport-section */
+
+/* subscribe-section */
+.subscribe-section{
+    padding-block: 100px;
+}
+.input{
+    width: 100%;
+    border:none;
+    outline: none;
+    background:none;
+    position: relative;
+}
+::placeholder{
+    color: var(--c-grey-20);
+}
+.input-parent{
+    max-width:680px;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--c-white);
+    border-radius: var(--br-radius-sm);
+    margin: 0 auto;
+}
+
+.name-bg{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-grey);
+}
+.brand-tittle-list-box{
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+/* ///subscribe-section */
+
+/* footer-section */
+
+.footer-section{
+    background-color: var(--c-dark-blue);
+
+}
+
+
+.footer-colms{
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    row-gap: 20px;
+    padding: 20px 0;
+}
+.footer-colm{
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-colm-in{
+    padding: 10px;
+}
+.footer-link{
+    color: var(--c-grey-20);
+}
+.footer-information{
+    padding: 15px 60px;
+    background-color: var(--c-orange);
+}
+.footer-information-boxes{
+
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    row-gap: 20px;
+}
+
+.social-media{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--br-radius-full);
+    background-color: var(--c-white);
+}
+.social-media-link{
+    width: 100%;
+    text-align: center;
+    color: var(--c-orange);
+}

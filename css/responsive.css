@@ -1,0 +1,68 @@
+
+@media only screen and (max-width:900px){
+    .banner-header{
+        display: none;
+    }
+    .banner-content-stays{
+        display: none;
+    }
+    .hotel-details-list{
+        width: 50%;
+    }
+
+    .vacation-Rental-box{
+        width: 50%;
+    }
+    .feautures-box{
+        width: 50%;
+    }
+    .destination-box{
+        width: 50%;
+    }
+    .transport-box{
+        width: 100%;
+    }
+    .brand-tittle-list-box{
+        width: 50;
+    }
+    .footer-colm{
+        width: 50%;
+    }
+    .footer-information-boxes{
+        width: 50%;
+    }
+
+
+}
+
+@media only screen and (max-width:480px){
+    .vacation-Rental-box{
+        width: 100%;
+    }
+    .hotel-details-list{
+        width: 50%;
+    }
+    .feautures-box{
+        width: 100%;
+    }
+    .destination-box{
+        width: 100%;
+    }
+
+    .destination-img-box{
+        width: 100%;
+    }
+    .transport-box{
+        width: 100%;
+    }
+    .brand-tittle-list-box{
+        width: 100%;
+    }
+    .footer-colm{
+        width: 100%;
+    }
+    .footer-information-boxes{
+        width: 100%;
+    }
+
+}
