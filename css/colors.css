@@ -12,6 +12,7 @@
     --c-grey-20:#e4dada;
     --c-grey-30:#3c3c3c;
     --c-dark-blue:#071c35;
+    --c-blue:#3b77d1;
 }
 
 .c-black{color: var(--c-black);}
