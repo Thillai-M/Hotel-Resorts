@@ -1,6 +1,6 @@
 
 @media only screen and (max-width:900px){
-    .banner-header,.banner-content{
+    .banner-header,.banner-sec{
         display: none;
     }
     .banner-content-stays{
