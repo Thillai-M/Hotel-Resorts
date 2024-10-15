@@ -23,48 +23,56 @@
 		<!-- component-style -->
 		<link rel="stylesheet" href="./css/button.css" />
 		<link rel="stylesheet" href="./css/home.css" />
-		<link rel="stylesheet" href="./css/page-layout.css" />
 		<link rel="stylesheet" href="./css/typography.css" />
 
 		<!-- responsive -->
 		<link rel="stylesheet" href="./css/responsive.css" />
 
-		<!-- CSS -->
+		<!-- //CSS -->
 
 		<!-- Box-Icon -->
 		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 	</head>
 	<body>
 		<!-- banner-sec -->
+		<header class="main-header D-flx JC-SB AI-C">
+			<button class="menu-btn" onclick="show_menu()">
+				<i class='bx bx-menu f22'></i>
+			</button>
+			<div class="logo-cont"><a class="logo-tittle">Heritage</a></div>
+			<nav class="menu-nav-container">
+				<div class="menu-nav-pop"> 
+				<ul class="menu-lists D-flx G-20">
+					<li class="header-list">
+						<a class="header-nav-link" href="">About Us</a>
+					</li>
+					<li class="header-list">
+						<a class="header-nav-link" href="">Product</a>
+					</li>
+					<li class="header-list">
+						<a class="header-nav-link" href="">Resource</a>
+					</li>
+					<li class="header-list">
+						<a class="header-nav-link" href="">Blog</a>
+					</li>
+					<li class="header-list">
+						<a class="header-nav-link" href="">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<button class="close-btn" onclick="hide_menu()">
+				<i class='bx bx-window-close f24'></i>
+			</button>
+			</nav>
+
+			<div class="header-btn">
+				<a class="btn header-nav-link" href="">Log in</a>
+				<a class="btn btn-primary" href="">Sign Up</a>
+			</div>
+		</header>
 		<section class="banner-sec">
 			<div class="container">
-				<header class="banner-header D-flx JC-SB AI-C">
-					<div><a class="logo-tittle">Heritage</a></div>
-					<nav>
-						<ul class="D-flx G-20">
-							<li class="header-list">
-								<a class="header-nav-link" href="">About Us</a>
-							</li>
-							<li class="header-list">
-								<a class="header-nav-link" href="">Product</a>
-							</li>
-							<li class="header-list">
-								<a class="header-nav-link" href="">Resource</a>
-							</li>
-							<li class="header-list">
-								<a class="header-nav-link" href="">Blog</a>
-							</li>
-							<li class="header-list">
-								<a class="header-nav-link" href="">Contact</a>
-							</li>
-						</ul>
-					</nav>
-
-					<div>
-						<a class="btn header-nav-link" href="">Log in</a>
-						<a class="btn btn-primary" href="">Sign Up</a>
-					</div>
-				</header>
+				
             <!-- //header -->
 				
 				<main>
@@ -479,5 +487,17 @@
             </div>
 		</footer>
 		<!-- //footer -->
+
+		<script>
+			let main_header = document.querySelector(".main-header");
+
+			function show_menu(){
+				main_header.classList.add("show-header");
+			}
+
+			function hide_menu(){
+				main_header.classList.remove("show-header");
+			}
+		</script>
 	</body>
 </html>

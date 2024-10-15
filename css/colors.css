@@ -1,6 +1,6 @@
 
 :root{
-    --c-black:#0d0c22;
+    --c-black:#000000;
     --c-white:#ffffff;
     --c-white-10:#e7e7e9;
     --c-white-15:#f9f9f9;
@@ -12,7 +12,6 @@
     --c-grey-20:#e4dada;
     --c-grey-30:#3c3c3c;
     --c-dark-blue:#071c35;
-    --c-blue:#3b77d1;
 }
 
 .c-black{color: var(--c-black);}

@@ -1,4 +1,9 @@
 
+
+.main-header{
+    height: 50px;
+    padding: 0 20px;
+}
 /* banner-sec */
 .banner-sec{
     background: url(../images/banner.jpg);
@@ -9,6 +14,7 @@
     border-radius: var(--br-radius-lm);
     position: relative;
 }
+
 .banner-sec::after{   
     content: "";
     position: absolute;

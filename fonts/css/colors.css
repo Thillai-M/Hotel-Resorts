@@ -1,0 +1,23 @@
+
+:root{
+    --c-black:#000000;
+    --c-white:#ffffff;
+    --c-white-10:#e7e7e9;
+    --c-white-15:#f9f9f9;
+    --c-white-20:#f1f1f1;
+    --c-orange:#e9604d;
+    --c-pink:#ea4c89;
+    --c-grey:#6e6d7a;
+    --c-grey-15:#dddddd;
+    --c-grey-20:#e4dada;
+    --c-grey-30:#3c3c3c;
+    --c-dark-blue:#071c35;
+}
+
+.c-black{color: var(--c-black);}
+.c-grey20{color: var(--c-grey-20);}
+.c-white{color: var(--c-white);}
+.c-white{color: var(--c-white);}
+.c-grey{color: var(--c-grey);}
+.c-pink{color: var(--c-pink);}
+.c-orange{color: var(--c-orange);}

@@ -26,3 +26,15 @@
 .btn.btn-secondary:hover{
     background-color: var(--c-dark-blue);
 }
+.menu-btn,.close-btn{
+    display: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+}
+.close-btn{
+    top: 5px;
+    right: 10px;
+}

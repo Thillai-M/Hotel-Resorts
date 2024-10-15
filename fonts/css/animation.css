@@ -1,0 +1,14 @@
+
+:root{
+
+    --trans:all ease-in-out;
+
+
+    --one-sec:.1s;
+    --two-sec:.2s;
+    --three-sec:.3s;
+    --four-sec:.4s;
+    --five-sec:.5s;
+
+    --default-trans:var(--trans) var(--three-sec);
+}

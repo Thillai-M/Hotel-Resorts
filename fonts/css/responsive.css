@@ -1,0 +1,124 @@
+
+@media only screen and (max-width:900px){
+
+    .banner-sec,.header-btn{
+        display: none;
+    }
+    .logo-cont{
+        padding-left: 30px;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+    .close-btn{
+        display: block;
+        color: var(--c-white);
+    }
+
+    .menu-nav-container{
+        display: flex;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        position: fixed;
+        visibility: hidden;
+        transition: var(--default-trans);
+    }
+    .main-header.show-header .menu-nav-container{
+        visibility: visible;
+        background-color: var(--c-black);
+    }
+
+    .main-header .menu-nav-pop{
+        display: flex;
+        width: 200px;
+        height: 100%;
+        top: 20px;
+        left: -200px;
+        padding: 40px 20px;
+        position: fixed;
+        background-color: var(--c-black);
+        transition: var(--default-trans);
+
+    }
+    .main-header.show-header .menu-nav-pop{
+        left: 0;
+    }
+    .menu-lists{
+        flex-direction: column;
+        align-items: start;
+        padding: 0px 20px;
+    }
+    .main-header{
+        padding: 0;
+    }
+    .header-nav-link{
+        color: var(--c-white);
+    }
+
+
+    
+    .banner-content-stays{
+        display: none;
+    }
+    .hotel-details-list{
+        width: 50%;
+    }
+
+    .vacation-Rental-box{
+        width: 50%;
+    }
+    .feautures-box{
+        width: 50%;
+    }
+    .destination-box{
+        width: 50%;
+    }
+    .transport-box{
+        width: 100%;
+    }
+    .brand-tittle-list-box{
+        width: 50;
+    }
+    .footer-colm{
+        width: 50%;
+    }
+    .footer-information-boxes{
+        width: 50%;
+    }
+
+
+}
+
+@media only screen and (max-width:480px){
+    .vacation-Rental-box{
+        width: 100%;
+    }
+    .hotel-details-list{
+        width: 50%;
+    }
+    .feautures-box{
+        width: 100%;
+    }
+    .destination-box{
+        width: 100%;
+    }
+
+    .destination-img-box{
+        width: 100%;
+    }
+    .transport-box{
+        width: 100%;
+    }
+    .brand-tittle-list-box{
+        width: 100%;
+    }
+    .footer-colm{
+        width: 100%;
+    }
+    .footer-information-boxes{
+        width: 100%;
+    }
+
+}
