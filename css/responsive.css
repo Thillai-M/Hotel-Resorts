@@ -10,6 +10,7 @@
 
     .menu-btn{
         display: block;
+        padding-left:10px
     }
     .close-btn{
         display: block;
