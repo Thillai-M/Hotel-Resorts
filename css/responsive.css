@@ -24,6 +24,7 @@
         position: fixed;
         visibility: hidden;
         transition: var(--default-trans);
+        z-index: 3;
     }
     .main-header.show-header .menu-nav-container{
         visibility: visible;
