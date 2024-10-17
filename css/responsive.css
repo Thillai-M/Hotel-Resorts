@@ -1,7 +1,7 @@
 
 @media only screen and (max-width:900px){
 
-    .banner-sec,.header-btn{
+    .header-btn,.stay-page{
         display: none;
     }
     .logo-cont{
@@ -92,6 +92,9 @@
 }
 
 @media only screen and (max-width:480px){
+    .heading-primary{
+        font-size: 25px;
+    }
     .vacation-Rental-box{
         width: 100%;
     }
